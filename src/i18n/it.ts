@@ -1,0 +1,238 @@
+import type { Dictionary } from "./types";
+
+export const it: Dictionary = {
+  meta: {
+    title: "Pianoforte Akademie · lezioni di pianoforte a Küssnacht am Rigi",
+    description:
+      "Accademia privata di pianoforte a Küssnacht am Rigi. Elena Vinogradova insegna a bambini da circa 4 anni e ad adulti — pianoforte, teoria, concerti degli allievi.",
+    ogTitle: "Pianoforte · accademia di pianoforte e musica",
+    ogDescription: "Küssnacht am Rigi · Elena Vinogradova",
+  },
+  nav: {
+    lessons: "Lezioni",
+    elena: "Elena",
+    concerts: "Concerti",
+    academy: "Accademia",
+    contact: "Contatto",
+    cta: "Richiedere lezioni di pianoforte",
+    menu: "Menu",
+    close: "Chiudi",
+    impressum: "Colophon",
+    privacy: "Privacy",
+  },
+  sound: { on: "ON", off: "OFF", label: "Suono" },
+  cursor: { discover: "SCOPRIRE", play: "PLAY" },
+  hero: {
+    kicker: "Accademia di pianoforte e musica",
+    title: "PIANOFORTE",
+    place: "Küssnacht am Rigi",
+    line: "Ogni viaggio musicale inizia con una sola nota.",
+    primary: "Richiedere lezioni di pianoforte",
+    secondary: "Scoprire Pianoforte",
+  },
+  songs: {
+    nowPlaying: "In ascolto",
+    play: "Riproduci",
+    pause: "Pausa",
+    placeholder: "Schizzo sonoro — registrazione in seguito",
+  },
+  philosophy: {
+    measure: "01",
+    title: "La tecnica dà sicurezza.\nLa comprensione dà profondità.\nLa musica dà voce.",
+    lead: "Un insegnamento che segue la persona — non il contrario.",
+    items: [
+      { title: "Tecnica", text: "Un fondamento chiaro, perché le mani sappiano ciò che fanno." },
+      { title: "Comprensione", text: "Ritmo, orecchio, notazione e contesto musicale." },
+      { title: "Gioia", text: "La curiosità resta l’inizio di un lavoro serio." },
+      { title: "Pazienza", text: "Il tempo segue l’allievo — non uno schema." },
+      { title: "Palcoscenico", text: "Due volte l’anno la lezione diventa scena." },
+    ],
+  },
+  lessons: {
+    measure: "02",
+    title: "Lezioni individuali, con spazio.",
+    lead: "Pianoforte. Teoria. Un percorso commisurato all’allievo.",
+    items: [
+      {
+        title: "Lezione individuale di pianoforte",
+        text: "Un insegnamento personale che conduce insieme tecnica e sentimento musicale — dal primo approccio al repertorio impegnativo.",
+      },
+      {
+        title: "Pianoforte per bambini",
+        text: "Da circa quattro anni: custodire la curiosità, porre le basi, spiegare attraverso il gioco dove serve, e procedere con gradualità.",
+      },
+      {
+        title: "Teoria musicale",
+        text: "Suonare il pianoforte non è solo premere tasti. Orecchio, ritmo, notazione e forma ne fanno parte.",
+      },
+      {
+        title: "Formati",
+        text: "Lezioni in studio a Küssnacht. I profili pubblici menzionano anche lezioni online e visite a domicilio a Küssnacht.",
+      },
+    ],
+  },
+  elena: {
+    measure: "03",
+    annotation: "Pianista da concerto · pedagoga · Pianoforte Akademie",
+    lead: "Esperienza sul palco.\nPazienza in lezione.",
+    body: "Il lavoro di Elena Vinogradova unisce la pratica concertistica a un insegnamento personale. Insegna a bambini da circa quattro anni e ad adulti — senza un limite d’età rigido — e accanto al mestiere strumentale pone la comprensione musicale.",
+    timeline: [
+      {
+        year: "2006–2011",
+        title: "Università delle arti di Zurigo",
+        text: "Studi alla ZHdK.",
+      },
+      {
+        year: "MAS",
+        title: "Prassi musicale",
+        text: "Master of Advanced Studies ZFH in Musikpraxis.",
+      },
+      {
+        year: "dal ca. 2014",
+        title: "Insegnamento privato",
+        text: "Pianoforte Akademie a Küssnacht am Rigi.",
+      },
+    ],
+  },
+  explorer: {
+    measure: "04",
+    title: "Lo strumento.",
+    lead: "Un gran coda da concerto è meccanica, risonanza e pazienza — rese visibili.",
+    lid: {
+      title: "Coperchio",
+      text: "Il grande coperchio apre la cassa. Sotto: corde e tavola armonica.",
+    },
+    fallboard: {
+      title: "Copritastiera",
+      text: "La copertura dei tasti — con peso, senza fretta.",
+    },
+    keys: {
+      title: "Tasti",
+      text: "Un’ottava da suonare. Ogni tasto scende e ritorna.",
+    },
+    pedals: {
+      title: "Pedali",
+      text: "Tre funzioni, tre caratteri del suono.",
+    },
+    strings: {
+      title: "Corde",
+      text: "Una luce sull’interno — risonanza, non spettacolo.",
+    },
+    pedalNames: {
+      sustain: "Forte / sustain — il suono continua.",
+      soft: "Una corda / soft — il timbro si fa più morbido.",
+      sostenuto: "Sostenuto — certe note restano.",
+    },
+  },
+  journey: {
+    measure: "05",
+    title: "Il cammino di un allievo.",
+    stages: [
+      { n: "01", title: "SCOPRIRE", text: "La prima nota. Curiosità, senza pressione." },
+      { n: "02", title: "COMPRENDERE", text: "Note, ritmo, imparare ad ascoltare." },
+      { n: "03", title: "STUDIARE", text: "La tecnica come mestiere — ogni giorno, calma, precisa." },
+      { n: "04", title: "ESPRIMERE", text: "Dalle note giuste nasce una voce." },
+      { n: "05", title: "SUONARE", text: "La musica si condivide. Il palco è parte del cammino." },
+    ],
+  },
+  concert: {
+    measure: "06",
+    title: "Dallo studio al palco.",
+    line: "Due volte l’anno la lezione diventa concerto.",
+    body: "Imparare non finisce con le note giuste. Finisce dove una persona ha il coraggio di condividere la musica. Pianoforte organizza tradizionalmente concerti degli allievi circa due volte l’anno.",
+    galleryNote: "Le fotografie dei concerti appariranno qui.",
+  },
+  reviews: {
+    measure: "07",
+    title: "Voci di genitori e allievi.",
+    source: "Google · 5.0 · 4 recensioni",
+    paraphrase: "Parafrasi di recensioni Google pubbliche",
+    items: [
+      {
+        name: "Jara Wiesmann",
+        role: "Madre",
+        text: "Il figlio ha sviluppato un maggiore interesse per la musica come arte, gioia nello studio e nell’esercizio, curiosità. La tecnica è spiegata con chiarezza, pazienza e adattamento all’allievo.",
+      },
+      {
+        name: "Olga Valmond",
+        role: "Raccomandazione",
+        text: "Sottolinea spiegazioni chiare della tecnica pianistica, sensibilità pedagogica, metodi vivi, e raccomanda con convinzione l’insegnamento.",
+      },
+      {
+        name: "Alois Lagler",
+        role: "Raccomandazione",
+        text: "Parla di insegnamento competente, di un modo di apprendere giocoso e di rapidi progressi nel mestiere del pianoforte. Raccomandazione chiara.",
+      },
+    ],
+  },
+  pricing: {
+    measure: "08",
+    title: "Le lezioni, in cifre quiete.",
+    lead: "Valori di riferimento pubblici. Prezzi diretti su richiesta.",
+    from: "da",
+    minutes: "min.",
+    lessons: "lezioni",
+    cta: "Chiedere prezzo e lezioni",
+    items: [
+      { id: "children30", title: "Bambini", detail: "30 minuti" },
+      { id: "adults45", title: "Adulti", detail: "45 minuti" },
+      { id: "package60", title: "Pacchetto", detail: "5 × 60 minuti" },
+    ],
+  },
+  location: {
+    measure: "09",
+    title: "Küssnacht am Rigi.",
+    route: "Apri percorso",
+    call: "Chiama",
+    loadMap: "Carica mappa",
+    privacyNote: "La mappa carica contenuti Google solo se lo scegliete.",
+  },
+  contact: {
+    measure: "10",
+    title: "La vostra prima nota inizia qui.",
+    lead: "Basta una telefonata. WhatsApp altrettanto. Il modulo è facoltativo.",
+    call: "Chiama",
+    whatsapp: "WhatsApp",
+    trial: "Richiedere una lezione di prova",
+    formTitle: "Breve richiesta",
+    name: "Nome",
+    contactField: "Telefono o e-mail",
+    age: "Età dell’allievo",
+    experience: "Esperienza",
+    message: "Messaggio",
+    submit: "Invia richiesta",
+    sending: "Invio…",
+    success: "Grazie. Si apre WhatsApp con il vostro testo — oppure chiamate.",
+    error: "Indicare un nome e un recapito.",
+    required: "Obbligatorio",
+  },
+  footer: {
+    tagline: "Accademia di pianoforte e musica",
+    copyright: "Pianoforte Akademie",
+  },
+  legal: {
+    impressumTitle: "Colophon",
+    impressumBody: [
+      "Pianoforte Akademie",
+      "Elena Vinogradova",
+      "Zwimattstrasse 10",
+      "6403 Küssnacht am Rigi",
+      "Svizzera",
+      "Telefono: +41 77 474 26 40",
+    ],
+    privacyTitle: "Privacy",
+    privacyBody: [
+      "Responsabile di questo sito è Elena Vinogradova, Pianoforte Akademie, Zwimattstrasse 10, 6403 Küssnacht am Rigi.",
+      "Il sito non usa tracciamento né strumenti di analisi. Non vengono impostati cookie pubblicitari.",
+      "Se usate il modulo, i dati inseriti servono a rispondere — di solito via WhatsApp o telefono. Non viene creato un account.",
+      "La mappa viene caricata da Google solo dopo la vostra scelta. Possono allora essere trasmessi dati a Google. Senza quella scelta la mappa non viene caricata.",
+      "Alla visita, l’hosting elabora registri tecnici necessari (ad esempio indirizzo IP, orario, pagina richiesta) nella misura richiesta per esercizio e sicurezza.",
+      "Avete diritto di informazione, rettifica e cancellazione dei dati che vi riguardano, e ulteriori diritti secondo il diritto svizzero. Inoltrate le richieste ai contatti del colophon.",
+    ],
+  },
+  a11y: {
+    skip: "Vai al contenuto",
+    piano: "Gran coda da concerto interattivo",
+    language: "Lingua",
+  },
+};

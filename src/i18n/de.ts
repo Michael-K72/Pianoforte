@@ -1,0 +1,238 @@
+import type { Dictionary } from "./types";
+
+export const de: Dictionary = {
+  meta: {
+    title: "Pianoforte Akademie · Klavierunterricht Küssnacht am Rigi",
+    description:
+      "Private Klavierakademie in Küssnacht am Rigi. Elena Vinogradova unterrichtet Kinder ab etwa 4 Jahren und Erwachsene – Klavier, Musiktheorie, Schülerkonzerte.",
+    ogTitle: "Pianoforte · Akademie für Klavier & Musik",
+    ogDescription: "Küssnacht am Rigi · Elena Vinogradova",
+  },
+  nav: {
+    lessons: "Unterricht",
+    elena: "Elena",
+    concerts: "Konzerte",
+    academy: "Akademie",
+    contact: "Kontakt",
+    cta: "Klavierunterricht anfragen",
+    menu: "Menü",
+    close: "Schliessen",
+    impressum: "Impressum",
+    privacy: "Datenschutz",
+  },
+  sound: { on: "AN", off: "AUS", label: "Klang" },
+  cursor: { discover: "ENTDECKEN", play: "PLAY" },
+  hero: {
+    kicker: "Akademie für Klavier & Musik",
+    title: "PIANOFORTE",
+    place: "Küssnacht am Rigi",
+    line: "Jede musikalische Reise beginnt mit einer einzigen Note.",
+    primary: "Klavierunterricht anfragen",
+    secondary: "Pianoforte entdecken",
+  },
+  songs: {
+    nowPlaying: "Erklingt",
+    play: "Wiedergeben",
+    pause: "Pause",
+    placeholder: "Klangskizze – Aufnahme folgt",
+  },
+  philosophy: {
+    measure: "01",
+    title: "Technik gibt Sicherheit.\nVerständnis gibt Tiefe.\nMusik gibt Ausdruck.",
+    lead: "Unterricht, der sich dem Menschen anpasst – nicht umgekehrt.",
+    items: [
+      { title: "Technik", text: "Ein klares Fundament, damit die Hände wissen, was sie tun." },
+      { title: "Verständnis", text: "Rhythmus, Gehör, Notation und musikalischer Zusammenhang." },
+      { title: "Freude", text: "Neugier bleibt der Anfang jeder ernsthaften Arbeit." },
+      { title: "Geduld", text: "Das Tempo folgt dem Lernenden – nicht einem Schema." },
+      { title: "Auftritt", text: "Zweimal im Jahr wird aus dem Unterricht eine Bühne." },
+    ],
+  },
+  lessons: {
+    measure: "02",
+    title: "Einzelunterricht, der Raum lässt.",
+    lead: "Klavier. Theorie. Ein Weg, der zum Stand des Schülers passt.",
+    items: [
+      {
+        title: "Einzelunterricht Klavier",
+        text: "Persönlicher Unterricht, der Technik und musikalisches Empfinden gemeinsam führt – vom ersten Ansatz bis zu anspruchsvoller Literatur.",
+      },
+      {
+        title: "Kinder-Klavierunterricht",
+        text: "Ab etwa vier Jahren: Neugier wahren, Grundlagen legen, erklären, wo Spiel hilft, und behutsam weiterbauen.",
+      },
+      {
+        title: "Musiktheorie",
+        text: "Klavierspiel ist mehr als das Drücken von Tasten. Gehör, Rhythmus, Notation und Form gehören dazu.",
+      },
+      {
+        title: "Formate",
+        text: "Unterricht im Studio in Küssnacht. Öffentlich genannt werden auch Online-Stunden und Hausbesuche in Küssnacht.",
+      },
+    ],
+  },
+  elena: {
+    measure: "03",
+    annotation: "Konzertpianistin · Pädagogin · Pianoforte Akademie",
+    lead: "Erfahrung auf der Bühne.\nGeduld im Unterricht.",
+    body: "Elena Vinogradovas Arbeit verbindet konzertante Praxis mit persönlichem Unterrichten. Sie unterrichtet Kinder ab etwa vier Jahren ebenso wie Erwachsene – ohne starre Altersgrenze – und stellt neben die instrumentale Arbeit das musikalische Verstehen.",
+    timeline: [
+      {
+        year: "2006–2011",
+        title: "Zürcher Hochschule der Künste",
+        text: "Studium an der ZHdK.",
+      },
+      {
+        year: "MAS",
+        title: "Musikpraxis",
+        text: "Master of Advanced Studies ZFH in Musikpraxis.",
+      },
+      {
+        year: "seit ca. 2014",
+        title: "Privater Klavierunterricht",
+        text: "Pianoforte Akademie in Küssnacht am Rigi.",
+      },
+    ],
+  },
+  explorer: {
+    measure: "04",
+    title: "Das Instrument.",
+    lead: "Ein Konzertflügel ist Mechanik, Resonanz und Geduld – sichtbar gemacht.",
+    lid: {
+      title: "Deckel",
+      text: "Der grosse Deckel öffnet den Korpus. Darunter liegen Saiten und der Resonanzboden.",
+    },
+    fallboard: {
+      title: "Tastaturdeckel",
+      text: "Die Abdeckung der Tasten – mit Gewicht, nicht mit Eile.",
+    },
+    keys: {
+      title: "Tasten",
+      text: "Eine Oktave zum Anspielen. Jede Taste senkt sich und kehrt zurück.",
+    },
+    pedals: {
+      title: "Pedale",
+      text: "Drei Funktionen, drei Charaktere des Klangs.",
+    },
+    strings: {
+      title: "Saiten",
+      text: "Ein Lichtzug über das Innere – Resonanz, nicht Spektakel.",
+    },
+    pedalNames: {
+      sustain: "Forte / Sustain – der Ton hält an.",
+      soft: "Una corda / Soft – der Klang wird weicher.",
+      sostenuto: "Sostenuto – ausgewählte Töne bleiben stehen.",
+    },
+  },
+  journey: {
+    measure: "05",
+    title: "Der Weg einer Schülerin, eines Schülers.",
+    stages: [
+      { n: "01", title: "ENTDECKEN", text: "Der erste Ton. Neugier, ohne Druck." },
+      { n: "02", title: "VERSTEHEN", text: "Noten, Rhythmus, das Hören lernen." },
+      { n: "03", title: "ÜBEN", text: "Technik als Handwerk – täglich, ruhig, genau." },
+      { n: "04", title: "AUSDRÜCKEN", text: "Aus korrekten Tönen wird eine Stimme." },
+      { n: "05", title: "AUFTRETEN", text: "Musik wird geteilt. Die Bühne ist Teil des Weges." },
+    ],
+  },
+  concert: {
+    measure: "06",
+    title: "Vom Üben auf die Bühne.",
+    line: "Zweimal im Jahr wird aus Unterricht Bühne.",
+    body: "Lernen endet nicht bei richtigen Noten. Es endet dort, wo ein Mensch den Mut hat, Musik zu teilen. Die Pianoforte Akademie organisiert traditionell etwa zweimal im Jahr Schülerkonzerte.",
+    galleryNote: "Konzertbilder folgen an dieser Stelle.",
+  },
+  reviews: {
+    measure: "07",
+    title: "Stimmen von Eltern und Lernenden.",
+    source: "Google · 5.0 · 4 Bewertungen",
+    paraphrase: "Sinngemäss, nach öffentlichen Google-Bewertungen",
+    items: [
+      {
+        name: "Jara Wiesmann",
+        role: "Mutter",
+        text: "Ihr Sohn habe mehr Interesse an Musik als Kunst entwickelt, Freude am Lernen und Üben sowie Neugier. Technik werde gut erklärt, mit Geduld und Anpassung an den Lernenden.",
+      },
+      {
+        name: "Olga Valmond",
+        role: "Empfehlung",
+        text: "Hebt klare Erklärungen der Klaviertechnik hervor, pädagogisches Gespür, anschauliche Methoden und empfiehlt den Unterricht ausdrücklich.",
+      },
+      {
+        name: "Alois Lagler",
+        role: "Empfehlung",
+        text: "Nennt kompetenten Unterricht, eine spielerische Lernweise und rasche Fortschritte im Handwerk des Klavierspiels. Klare Empfehlung.",
+      },
+    ],
+  },
+  pricing: {
+    measure: "08",
+    title: "Unterricht, in ruhigen Zahlen.",
+    lead: "Angaben ab öffentlich gelisteten Referenzwerten. Direkte Preise auf Anfrage.",
+    from: "ab",
+    minutes: "Min.",
+    lessons: "Lektionen",
+    cta: "Preis & Unterricht anfragen",
+    items: [
+      { id: "children30", title: "Kinder", detail: "30 Minuten" },
+      { id: "adults45", title: "Erwachsene", detail: "45 Minuten" },
+      { id: "package60", title: "Paket", detail: "5 × 60 Minuten" },
+    ],
+  },
+  location: {
+    measure: "09",
+    title: "Küssnacht am Rigi.",
+    route: "Route öffnen",
+    call: "Anrufen",
+    loadMap: "Karte laden",
+    privacyNote: "Die Karte lädt Inhalte von Google. Nur nach Ihrer Wahl.",
+  },
+  contact: {
+    measure: "10",
+    title: "Ihre erste Note beginnt hier.",
+    lead: "Ein Anruf genügt. WhatsApp ebenso. Formulare sind nicht nötig – aber möglich.",
+    call: "Anrufen",
+    whatsapp: "WhatsApp",
+    trial: "Probelektion anfragen",
+    formTitle: "Kurze Anfrage",
+    name: "Name",
+    contactField: "Telefon oder E-Mail",
+    age: "Alter des Schülers",
+    experience: "Erfahrung",
+    message: "Nachricht",
+    submit: "Anfrage senden",
+    sending: "Wird gesendet…",
+    success: "Danke. WhatsApp öffnet sich mit Ihrer Nachricht – oder rufen Sie uns an.",
+    error: "Bitte Name und eine Kontaktmöglichkeit angeben.",
+    required: "Pflichtfeld",
+  },
+  footer: {
+    tagline: "Akademie für Klavier & Musik",
+    copyright: "Pianoforte Akademie",
+  },
+  legal: {
+    impressumTitle: "Impressum",
+    impressumBody: [
+      "Pianoforte Akademie",
+      "Elena Vinogradova",
+      "Zwimattstrasse 10",
+      "6403 Küssnacht am Rigi",
+      "Schweiz",
+      "Telefon: +41 77 474 26 40",
+    ],
+    privacyTitle: "Datenschutz",
+    privacyBody: [
+      "Verantwortlich für diese Website ist Elena Vinogradova, Pianoforte Akademie, Zwimattstrasse 10, 6403 Küssnacht am Rigi.",
+      "Diese Website verwendet kein Tracking und keine Analysewerkzeuge. Es werden keine Werbe-Cookies gesetzt.",
+      "Wenn Sie das Kontaktformular nutzen, werden die von Ihnen eingegebenen Angaben verwendet, um Ihre Anfrage zu beantworten – in der Regel über WhatsApp oder telefonisch. Es erfolgt keine Anlage eines Benutzerkontos.",
+      "Die eingebettete Karte wird erst nach Ihrer ausdrücklichen Wahl von Google geladen. Dabei können Daten an Google übermittelt werden. Ohne diese Wahl wird keine Karte geladen.",
+      "Beim Besuch der Website verarbeitet der Hosting-Anbieter technisch notwendige Server-Logdaten (z. B. IP-Adresse, Zeitpunkt, aufgerufene Seite), soweit dies für den Betrieb und die Sicherheit erforderlich ist.",
+      "Sie haben das Recht auf Auskunft, Berichtigung und Löschung Sie betreffender Personendaten sowie weitere Rechte nach dem Schweizer Datenschutzgesetz. Anfragen richten Sie an die im Impressum genannten Kontaktdaten.",
+    ],
+  },
+  a11y: {
+    skip: "Zum Inhalt springen",
+    piano: "Interaktiver Konzertflügel",
+    language: "Sprache",
+  },
+};

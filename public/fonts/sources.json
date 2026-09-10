@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cormorant-garamond",
+    "name": "@fontsource-variable/cormorant-garamond",
+    "weights": "300 700",
+    "version": "5.3.0",
+    "url": "https://registry.npmjs.org/@fontsource-variable/cormorant-garamond/-/cormorant-garamond-5.3.0.tgz",
+    "integrity": "sha512-rgZJ/5w3hi60swAPnrOXpZf5wEH6NTrvm4H8D9Y4b1QIFUqlX14eM3QTMU/eAznjfh0eXpO1QUqsFhiy58aoMg==",
+    "license": "OFL-1.1",
+    "files": [
+      {
+        "filename": "cormorant-garamond-cyrillic-ext-wght-normal.woff2",
+        "bytes": 23416
+      },
+      {
+        "filename": "cormorant-garamond-cyrillic-wght-normal.woff2",
+        "bytes": 21168
+      },
+      {
+        "filename": "cormorant-garamond-latin-ext-wght-normal.woff2",
+        "bytes": 33736
+      },
+      {
+        "filename": "cormorant-garamond-latin-wght-normal.woff2",
+        "bytes": 37640
+      }
+    ],
+    "licenseFile": "cormorant-garamond-LICENSE.txt"
+  },
+  {
+    "id": "manrope",
+    "name": "@fontsource-variable/manrope",
+    "weights": "200 800",
+    "version": "5.3.0",
+    "url": "https://registry.npmjs.org/@fontsource-variable/manrope/-/manrope-5.3.0.tgz",
+    "integrity": "sha512-6D5dgokHsWDDMtmXHznKa0hK229NN+1a4BLPmUCLqcO1Pw5EEhWY5RFt0AcXnVRAljFFPfRtLkJePQj6LSsV6g==",
+    "license": "OFL-1.1",
+    "files": [
+      {
+        "filename": "manrope-cyrillic-ext-wght-normal.woff2",
+        "bytes": 2552
+      },
+      {
+        "filename": "manrope-cyrillic-wght-normal.woff2",
+        "bytes": 14500
+      },
+      {
+        "filename": "manrope-latin-ext-wght-normal.woff2",
+        "bytes": 15120
+      },
+      {
+        "filename": "manrope-latin-wght-normal.woff2",
+        "bytes": 24836
+      }
+    ],
+    "licenseFile": "manrope-LICENSE.txt"
+  }
+]
